@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Assignment Two</title>
+    <link rel="stylesheet" href="stylesheet/main.css" />
+</head>
+
+<!-- all nav bar and nav grid content at the header of the page -->
+<header>
+    <!--create grid for nav bar-->
+    <nav class="grid2 nav">
+        <a href="#about">
+            <div class="grid-item2">
+                <h2>About</h2>
+            </div>
+        </a>
+        <a href="#folio">
+            <div class="grid-item2">
+                <h2>Portfolio</h2>
+            </div>
+        </a>
+        <a href="#contact">
+            <div class="grid-item2">
+                <h2>Contact</h2>
+            </div>
+        </a>
+        <a href="#experience">
+            <div class="grid-item2">
+                <h2>Experience</h2>
+            </div>
+        </a>
+    </nav>
+</header>
+
+<!-- start of the main content of the page -->
+
+<body>
+    <div class="topborder">
+        <div class="line1">
+            <hr>
+        </div>
+        <div class="line2">
+            <hr>
+        </div>
+    </div>
+
+    <!-- main svg script for drawings of shape on the top of the page -->
+    <div class="animation">
+        <svg preserveAspectRatio="xMidYMid slice" viewBox="5 10 100 100">
+            <!-- pathing for each point on the screen to get the drawings of the shapes amd filling outlines with hex code color -->
+            <path fill="#9DA993" class="out-top"
+                d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z" />
+            <path fill="#4F4335" class="in-top"
+                d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z" />
+            <path fill="#6E604C" class="out-bottom"
+                d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z" />
+            <path fill="#858c84" class="in-bottom"
+                d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z" />
+        </svg>
+    </div>
+
+    <div class="toppage">
+        <h1>Hi, I'm Hadassah! </h1>
+    </div>
+
+    <div class="type-container">
+        <span id="text"></span>
+        <div class="text-underscore" id="console">&#95;</div>
+
+        <script src="js/type.js"></script>
+    </div>
+
+    <div class="bottomborder">
+        <div class="line1">
+            <hr>
+        </div>
+        <div class="line2">
+            <hr>
+        </div>
+    </div>
+
+    <!--User can click button to briefly learn about me before about section-->
+    <div id="about">
+        <h2>About</h2>
+    </div>
+
+    <!-- Typing animation html section; brief abouts -->
+
+    <div class="grid3">
+        <div class="grid-item3 mycreativity">
+            <p>
+                The creativity I chose to display is my artwork. A lot of my artwork draws from Surrealist ideas and
+                focuses
+                on a lack of bright color, with a more black and white approach. I sometimes include tiny pops of color
+                to
+                emphasize important details in my work.
+            </p>
+        </div>
+        <div class="gird-item3 mepic">
+            <div class="aboutpic">
+                <img src="img/mepicture.png" alt="picture of my standing infront of a large window">
+            </div>
+        </div>
+    </div>
+
+    <!-- Line seperating About section and portfolio section -->
+    <div class="aboutline">
+        <div class="line1">
+            <hr>
+        </div>
+        <div class="line2">
+            <hr>
+        </div>
+    </div>
+
+    <!--This is where I will make my grids for my portfolio section-->
+    <div id="folio">
+        <h2>Portfolio</h2>
+    </div>
+    <div class="grid">
+        <div class="grid-item art1">
+            <img src="img/pic1.jpg" alt="black and white ink drawing with a camera and girl" class="hover1">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Candid Shot" made with Ink and a fountin pen(2021)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art2">
+            <img src="img/pic2.jpg" alt="black and white ink drawing of girl in the middle of sword circle"
+                class="hover2">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Weapons Ritual" made with Ink and a fountain pen(2023)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art3">
+            <img src="img/pic3.jpg" alt="black and white drawing of person with a door with stairs on his forehead"
+                class="hover3">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Open Mind" made with Ink and a fountain pen(2020)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art4">
+            <img src="img/pic4.jpg" alt="black and white drawing of two people with an old school arcade game"
+                class="hover4">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Game On" made with Ink Micron Pens(2018)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art5">
+            <img src="img/pic9.jpg" alt="A black and white drawing of a space man taking off his helmet on a planet"
+                class="hover5">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"EXP. 0145" made with Ink and a fountain pen(2022)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art6">
+            <img src="img/pic6.jpg"
+                alt="black and white drawing of a person standing down a long hallway with hanging yellow lights and multiple doors"
+                class="hover6">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Disturbed Psyche" made with Ink and a fountain pen(2020)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art7">
+            <img src="img/pic7.jpg"
+                alt="black and white drawing of a person standing in front of a lopsided brick house in a forest"
+                class="hover7">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Bricks in the Night" made with Ink and a fountain pen(2020)</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item art8">
+            <img src="img/navpic.JPG"
+                alt="Two people sitting in a car facing an open fence with a room visible through the openning"
+                class="hover8">
+            <div class="overlay1">
+                <div class="text1">
+                    <p><b>"Garbage Day" made with Ink and a fountain pen(2023)</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sub heading to instruct users on how to see programming portfolio -->
+    <div class="codingfolio">
+        <h3>Click Each Icon to view my programming portfolio!</h3>
+    </div>
+
+    <!-- Area to showcase coding laguages I am proficient in -->
+    <div class="grid4">
+        <!-- JavaScript image section -->
+        <div class="grid-item4 jslang">
+            <a href="https://github.com/HadsRobs19/RandomMusicGenerator/blob/main/RandomMusicGenerator.js"><img
+                    src="img/js.png" alt="JavaScript logo"></a>
+        </div>
+
+        <!-- HTML image section -->
+        <div class="grid-item4 htmllang">
+            <a href="https://github.com/HadsRobs19/Current-Personal-Site/blob/main/index.html"><img src="img/html.png"
+                    alt="html logo"></a>
+        </div>
+
+        <!-- C image section -->
+        <div class="grid-item4 clang">
+            <a href="https://github.com/HadsRobs19/StudentInfoSearchEngine/blob/main/Assignment3_2.C"><img
+                    src="img/c.png" alt="c coding language logo"></a>
+        </div>
+
+        <!-- CSS language section -->
+        <div class="grid-item4 csslang">
+            <a href="https://github.com/HadsRobs19/personalWebsite/blob/main/Styles.css"><img src="img/css.png"
+                    alt="css language logo"></a>
+        </div>
+    </div>
+
+    <!-- Line seperating Porfolio section and Experience section -->
+    <div class="folioline">
+        <div class="line1">
+            <hr>
+        </div>
+        <div class="line2">
+            <hr>
+        </div>
+    </div>
+
+    <!--Start the Experience section here; impliment sldie show with experience/involvement-->
+    <div id="experience">
+        <h2>Experience</h2>
+    </div>
+
+    <!-- Slide show portion of experience section -->
+    <div class="slide-container">
+        <!--Slide 1 code-->
+        <div class="slides fade">
+            <div class="slidenumber">1 / 3</div>
+            <img src="img/slide1.jpg" alt="Scholastics Art and Writing Awards">
+            <div class="caption">I won a Silver Key and Honorable Mention in 2020</div>
+        </div>
+
+        <!-- Slide 2 code -->
+        <div class="slides fade">
+            <div class="slidenumber">2 / 3</div>
+            <img src="img/slide2.JPG" alt="me at the Scholastics Art and Writing gallery">
+            <div class="caption">My Sliver Key piece at the art gallery</div>
+        </div>
+
+        <!-- Slide 3 code -->
+        <div class="slides fade">
+            <div class="slidenumber">3 / 3</div>
+            <img src="img/slide3.jpg" alt="The neightborhood development Mattamy Homes in Orlando, Florida">
+            <div class="caption">My artwork was presented at an art gallery put on by Mattamy Homes</div>
+        </div>
+        <!-- Buttons to move through slideshow with corresponding function calls from js code-->
+        <a class="prev" onclick="plusSlides(-1)"><b>&lt;</b></a>
+        <a class="next" onclick="plusSlides(1)"><b>&gt;</b></a>
+
+    </div>
+    <br>
+
+    <!-- Dots at bottom of slide show that users can click through instead of using side arrows -->
+    <div style="text-align:center">
+        <!-- corresponding function calls for onclick that are attached to js code -->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="js/slideshow.js"></script>
+
+    <!-- Line seperating Experience section from Contact section -->
+    <div class="experienceline">
+        <div class="line1">
+            <hr>
+        </div>
+        <div class="line2">
+            <hr>
+        </div>
+    </div>
+    <!-- Start contact section; make a simple forms box where people can send their names and a quick message -->
+    <div id="contact">
+        <h2>Contact</h2>
+    </div>
+
+    <div class="connect">
+        <h2>Let's Connect!</h2>
+    </div>
+    <div class="contact-box">
+
+        <!-- Form section to serve as a contact box area; not working php  -->
+        <form action="process.php" , method="post" name="myform">
+
+            <!-- Input and Label section for the first name -->
+            <div id="userFirstName">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name..." value="" />
+            </div>
+
+            <!-- Input and Label section for the last name -->
+            <div id="userLastName">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..." value="" />
+            </div>
+
+            <!-- Input and label section for a message -->
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="Enter a brief message here...">
+
+            <script src="js/validation.js"></script>
+            <!-- Submit button to send information to pretend database -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <div class="footerline1">
+            <hr>
+        </div>
+
+        <div class="footerline2">
+            <hr>
+        </div>
+
+        <div class="footerinfo">
+            <p>@2024 Hadassah Roberts</p>
+        </div>
+
+        <div class="footerline1">
+            <hr>
+        </div>
+
+        <div class="footerline2">
+            <hr>
+        </div>
+    </footer>
+</body>
+
+</html>
